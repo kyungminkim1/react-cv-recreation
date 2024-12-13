@@ -1,14 +1,14 @@
 export default function App() {
   return (
-    <>
+    <main>
       <div className="left-column">
-        <section>
+        <section className="card-name">
           <h1>KYUNG-MIN KIM</h1>
-          <span>Junior Web Developer</span>
+          <i>Junior Web Developer</i>
         </section>
 
         <section>
-          <h4>CONTACT</h4>
+          <h3>CONTACT</h3>
           <p>0123456789
             <br />
             abc@email.com
@@ -16,12 +16,12 @@ export default function App() {
             New Zealand</p>
         </section>
         <section>
-          <h4>CAREER OBJECTIVE</h4>
+          <h3>CAREER OBJECTIVE</h3>
           <p>Aspiring graduate seeking to expand my learning under a reputable company.</p>
         </section>
         <section>
-          <h4>SKILLS</h4>
-          <i>Programming Languages</i>
+          <h3>SKILLS</h3>
+          <i>Programming Languages:</i>
           <ul>
             <li>Python</li>
             <li>Javascript</li>
@@ -29,19 +29,19 @@ export default function App() {
             <li>Ruby</li>
             <li>HTML5/CSS3</li>
           </ul>
-          <i>Libraries and Frameworks</i>
+          <i>Libraries and Frameworks:</i>
           <ul>
             <li>React</li>
             <li>Django</li>
           </ul>
-          <i>Development Tools</i>
+          <i>Development Tools:</i>
           <ul>
             <li>Chrome DevTools</li>
             <li>Git</li>
             <li>Visual Studio Code</li>
             <li>Linux CLI</li>
           </ul>
-          <i>Personal</i>
+          <i>Personal:</i>
           <ul>
             <li>Team player</li>
             <li>Detail-oriented</li>
@@ -52,7 +52,7 @@ export default function App() {
       </div>
       <div className="right-column">
         <article>
-          <h4>EDUCATION</h4>
+          <h3>EDUCATION</h3>
           <div>
             <p>
               <b>University of Auckland</b>
@@ -73,7 +73,7 @@ export default function App() {
           </div>
         </article>
         <article>
-          <h4>PERSONAL PROJECTS</h4>
+          <h3>PERSONAL PROJECTS</h3>
           <a href="https://sentient-cactus.itch.io/togwycmps">'That One Game Where You Climb a Mountain with a Pogo Stick'</a>
           <ul>
             <li>Designed, developed, and deployed a web browser game using
@@ -92,7 +92,7 @@ export default function App() {
           </ul>
         </article>
         <article>
-          <h4>UNIVERSITY PROJECTS</h4>
+          <h3>UNIVERSITY PROJECTS</h3>
           <p>'Dog Forum'</p>
           <ul>
             <li>Followed Agile methodology alongside group members to create
@@ -103,7 +103,7 @@ export default function App() {
           </ul>
         </article>
         <article>
-          <h4>WORK EXPERIENCE</h4>
+          <h3>WORK EXPERIENCE</h3>
           <div>
             <p>Retail Assistant</p>
             <p>2023-Present</p>
@@ -115,6 +115,6 @@ export default function App() {
           </ul>
         </article>
       </div>
-    </>
+    </main>
   )
 }
