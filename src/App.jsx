@@ -74,7 +74,7 @@ export default function App() {
         </article>
         <article>
           <h4>PERSONAL PROJECTS</h4>
-          <a>'That One Game Where You Climb a Mountain with a Pogo Stick'</a>
+          <a href="https://sentient-cactus.itch.io/togwycmps">'That One Game Where You Climb a Mountain with a Pogo Stick'</a>
           <ul>
             <li>Designed, developed, and deployed a web browser game using
               Unity during a 3-day game jam</li>
