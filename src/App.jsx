@@ -1,35 +1,59 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+export default function App() {
+  <>
+    <div className="left-column">
+      <section>
+        <h1>KYUNG-MIN KIM</h1>
+        <span>Junior Web Developer</span>
+      </section>
 
-function App() {
-  const [count, setCount] = useState(0)
+      <section>
+        <h2>CONTACT</h2>
+        <span>0123456789</span>
+        <span>abc@email.com</span>
+        <span>New Zealand</span>
+      </section>
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+      <section>
+        <h2>CONTACT</h2>
+      </section>
+      <section>
+        <h2>CAREER OBJECTIVE</h2>
+        <p>Aspiring graduate seeking to expand my learning under a reputable company.</p>
+      </section>
+      <section>
+        <h2>SKILLS</h2>
+      </section>
+    </div>
+    <div className="right-column">
+      <article>
+        <h2>EDUCATION</h2>
+        <div>
+          <p>
+            <b>University of Auckland</b>
+            <br />
+            Bachelor of Science
+            <br />
+            Major in Computer Science
+          </p>
+          <span>2016-2020</span>
+        </div>
+        <div>
+          <p>
+            <b>Unitec</b>
+            Graduate Diploma of Computer
+          </p>
+          <span>2022-2023</span>
+        </div>
+      </article>
+      <article>
+        <h2>PERSONAL PROJECTS</h2>
+      </article>
+      <article>
+        <h2>UNIVERSITY PROJECTS</h2>
+      </article>
+      <article>
+        <h2>WORK EXPERIENCE</h2>
+      </article>
+    </div>
+  </>
 }
-
-export default App
