@@ -53,7 +53,7 @@ export default function App() {
       <div className="right-column">
         <article>
           <h3>EDUCATION</h3>
-          <div>
+          <div className="education-card">
             <p>
               <b>University of Auckland</b>
               <br />
@@ -63,11 +63,11 @@ export default function App() {
             </p>
             <span>2016-2020</span>
           </div>
-          <div>
+          <div className="education-card">
             <p>
               <b>Unitec</b>
               <br />
-              Graduate Diploma of Computer
+              Graduate Diploma of Computing
             </p>
             <span>2022-2023</span>
           </div>

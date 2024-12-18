@@ -2,6 +2,13 @@ body {
   font-family: Calibri, 'Trebuchet MS', sans-serif;
   width: 800px;
   background-color: rgb(80, 80, 80);
+
+  margin: 0 auto;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
 }
 
 main {
@@ -58,4 +65,9 @@ ul {
 
 li {
   padding-left: 8px;
+}
+
+.education-card {
+  display: flex;
+  justify-content: space-between;
 }
